@@ -1,0 +1,148 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "meta": {
+    "source": "Toastmasters International Brand Manual v2.0 / 2025–2026",
+    "maintained_by": "Bond7010",
+    "repo": "https://github.com/Bond7010/tm-claude-design-kit"
+  },
+
+  "colors": {
+    "primary": {
+      "loyal_blue": {
+        "hex": "#004165",
+        "rgb": [0, 65, 101],
+        "pantone": "302",
+        "usage": "Headers, backgrounds, dominant color"
+      },
+      "true_maroon": {
+        "hex": "#772432",
+        "rgb": [119, 36, 50],
+        "pantone": "188",
+        "usage": "Headers, accent backgrounds"
+      },
+      "cool_gray": {
+        "hex": "#A9B2B1",
+        "rgb": [169, 178, 177],
+        "pantone": "442",
+        "usage": "Backgrounds, secondary areas"
+      }
+    },
+    "accent": {
+      "happy_yellow": {
+        "hex": "#F2DF74",
+        "rgb": [242, 223, 116],
+        "pantone": "127",
+        "usage": "Highlights, call-to-action, standout accents — use sparingly"
+      }
+    },
+    "neutral": {
+      "white": { "hex": "#FFFFFF", "usage": "Body text on dark backgrounds, clean layouts" },
+      "black": { "hex": "#000000", "usage": "Body text, high-contrast elements" }
+    },
+    "rules": [
+      "Never place the logo on colors outside this palette",
+      "Text on dark backgrounds: White or Happy Yellow only",
+      "Text on light backgrounds: Loyal Blue, True Maroon, or Black only",
+      "Happy Yellow is an accent — never use as a primary background for large areas"
+    ]
+  },
+
+  "gradients": {
+    "loyal_blue": {
+      "from": "#004165",
+      "to": "#006094",
+      "name_from": "Loyal Blue",
+      "name_to": "Blissful Blue",
+      "directions": ["top-to-bottom", "bottom-to-top", "left-to-right", "right-to-left", "radial"]
+    },
+    "true_maroon": {
+      "from": "#3B0104",
+      "to": "#781327",
+      "name_from": "Deep Maroon",
+      "name_to": "Rich Maroon",
+      "directions": ["top-to-bottom", "bottom-to-top", "left-to-right", "right-to-left", "radial"]
+    },
+    "cool_gray": {
+      "from": "#A9B2B1",
+      "to": "#F5F5F5",
+      "name_from": "Cool Gray",
+      "name_to": "Fair Gray",
+      "note": "Opacity can be adjusted in increments of 20%"
+    },
+    "overlays": [
+      "White at 70% opacity over Loyal Blue gradient",
+      "White at 70% opacity over True Maroon gradient",
+      "Loyal Blue at 70% opacity over Cool Gray gradient"
+    ]
+  },
+
+  "typography": {
+    "headline": {
+      "name": "Gotham",
+      "free_alternative": "Montserrat",
+      "google_fonts_url": "https://fonts.google.com/specimen/Montserrat",
+      "weights": ["Ultra", "Black", "Bold", "Medium", "Book", "Light", "ExtraLight", "Thin"],
+      "condensed_available": true,
+      "usage": "Headlines, subheads"
+    },
+    "body": {
+      "name": "Myriad Pro",
+      "free_alternatives": [
+        { "name": "Source Sans 3", "url": "https://fonts.google.com/specimen/Source+Sans+3", "note": "Closest match" },
+        { "name": "Arial", "note": "System fallback" },
+        { "name": "Segoe UI", "note": "System fallback" }
+      ],
+      "weights": ["Black", "Bold", "Semibold", "Regular", "Light"],
+      "usage": "Body copy in collateral — manuals, brochures, captions"
+    },
+    "script": [
+      { "name": "Corinthia",        "url": "https://fonts.google.com/specimen/Corinthia",        "usage": "Special events — anniversaries, galas" },
+      { "name": "Luxurious Script", "url": "https://fonts.google.com/specimen/Luxurious+Script", "usage": "Elegant script alternative" }
+    ],
+    "rules": [
+      "No word art, drop shadows, or typeface manipulation",
+      "Use fonts in standard styles only"
+    ],
+    "social_pairing": {
+      "headline": "Montserrat Bold or Black",
+      "subhead": "Montserrat Medium or Semibold",
+      "caption": "Source Sans 3 Regular or Semibold"
+    }
+  },
+
+  "logo": {
+    "versions": ["full-color", "grayscale", "white"],
+    "preferred": "full-color",
+    "clear_space": "Equal to full height of wordmark on all sides",
+    "min_size": { "web_px": 72, "print_inches": 0.75 },
+    "lockups": [
+      "Logo + wordmark stacked",
+      "Wordmark only",
+      "Logo + WHERE LEADERS ARE MADE tagline",
+      "Logo + www.toastmasters.org"
+    ],
+    "permitted": [
+      "Use on approved brand palette colors only",
+      "Keep proportions intact",
+      "Use in uncluttered area with clear space respected"
+    ],
+    "prohibited": [
+      "Do not alter logo colors",
+      "Do not distort, skew, or put in perspective",
+      "Do not place overlapping text, symbols, or images on the logo",
+      "Do not add glows, patterns, or drop shadows behind the logo",
+      "Do not create custom club logos or taglines",
+      "Do not place logo on non-brand colors"
+    ]
+  },
+
+  "voice_and_tone": {
+    "attributes": ["Warm", "Friendly", "Clear", "Respectful", "Professional", "Succinct", "Internationally friendly"],
+    "notes": [
+      "Confident but not stiff",
+      "Positive and upbeat",
+      "Inclusive and universal — avoid idioms that don't translate globally",
+      "Serious when appropriate, enthusiastic by default"
+    ]
+  }
+}

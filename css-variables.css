@@ -1,0 +1,59 @@
+/* Toastmasters Brand CSS Custom Properties
+   Source: Brand Manual v2.0 / 2025–2026
+   Repo:   https://github.com/Bond7010/tm-claude-design-kit
+*/
+
+:root {
+  /* ── Primary Colors ──────────────────────────────────────────────────────── */
+  --tm-loyal-blue:   #004165;
+  --tm-true-maroon:  #772432;
+  --tm-cool-gray:    #A9B2B1;
+
+  /* ── Accent ──────────────────────────────────────────────────────────────── */
+  --tm-happy-yellow: #F2DF74;
+
+  /* ── Neutrals ────────────────────────────────────────────────────────────── */
+  --tm-white:        #FFFFFF;
+  --tm-black:        #000000;
+
+  /* ── Gradients ───────────────────────────────────────────────────────────── */
+  --tm-grad-blue:    linear-gradient(to bottom, #004165, #006094);
+  --tm-grad-blue-h:  linear-gradient(to right,  #004165, #006094);
+  --tm-grad-maroon:  linear-gradient(to bottom, #3B0104, #781327);
+  --tm-grad-maroon-h:linear-gradient(to right,  #3B0104, #781327);
+  --tm-grad-gray:    linear-gradient(to bottom, #A9B2B1, #F5F5F5);
+
+  /* ── Typography ──────────────────────────────────────────────────────────── */
+  /* Google Fonts: import Montserrat + Source Sans 3 before using these */
+  --tm-font-headline: 'Montserrat', 'Gotham', Arial, sans-serif;
+  --tm-font-body:     'Source Sans 3', 'Myriad Pro', 'Segoe UI', Arial, sans-serif;
+  --tm-font-script:   'Corinthia', 'Luxurious Script', cursive;
+
+  /* ── Semantic tokens ─────────────────────────────────────────────────────── */
+  --tm-text-on-dark:   var(--tm-white);
+  --tm-text-on-light:  var(--tm-loyal-blue);
+  --tm-accent-on-dark: var(--tm-happy-yellow);
+  --tm-bg-primary:     var(--tm-loyal-blue);
+  --tm-bg-secondary:   var(--tm-true-maroon);
+  --tm-bg-neutral:     var(--tm-cool-gray);
+}
+
+/* ── Google Fonts import (free alternatives) ──────────────────────────────── */
+/* Uncomment and paste at the top of your stylesheet:
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Source+Sans+3:wght@300;400;600;700&display=swap');
+
+*/
+
+/* ── Utility classes ──────────────────────────────────────────────────────── */
+.tm-bg-blue    { background-color: var(--tm-loyal-blue);  color: var(--tm-white); }
+.tm-bg-maroon  { background-color: var(--tm-true-maroon); color: var(--tm-white); }
+.tm-bg-gray    { background-color: var(--tm-cool-gray);   color: var(--tm-white); }
+.tm-bg-yellow  { background-color: var(--tm-happy-yellow);color: var(--tm-loyal-blue); }
+
+.tm-text-blue   { color: var(--tm-loyal-blue); }
+.tm-text-maroon { color: var(--tm-true-maroon); }
+.tm-text-yellow { color: var(--tm-happy-yellow); }
+
+.tm-grad-blue   { background: var(--tm-grad-blue);   color: var(--tm-white); }
+.tm-grad-maroon { background: var(--tm-grad-maroon); color: var(--tm-white); }

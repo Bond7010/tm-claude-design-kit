@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "source": "Toastmasters Brand Manual v2.0 / 2025–2026",
+    "rule": "Use one phrase per piece. Ensure good contrast with background. Never cover faces with text."
+  },
+  "phrases": [
+    {
+      "text": "Find Your Voice",
+      "use_cases": ["recruitment", "open house"],
+      "tags": ["general", "aspirational"]
+    },
+    {
+      "text": "Relax, speak confidently.",
+      "use_cases": ["general promotion"],
+      "tags": ["general", "confidence"]
+    },
+    {
+      "text": "Relax, present confidently.",
+      "use_cases": ["general promotion"],
+      "tags": ["general", "confidence"]
+    },
+    {
+      "text": "Communicate Confidently®",
+      "use_cases": ["brand awareness"],
+      "tags": ["brand", "registered"],
+      "note": "Registered trademark — include ® symbol"
+    },
+    {
+      "text": "100 Years of Confident Voices",
+      "use_cases": ["centennial content", "heritage"],
+      "tags": ["centennial", "anniversary"]
+    },
+    {
+      "text": "Find your confidence",
+      "use_cases": ["motivational posts"],
+      "tags": ["motivational", "aspirational"]
+    },
+    {
+      "text": "Become a better leader",
+      "use_cases": ["leadership-focused content"],
+      "tags": ["leadership"]
+    },
+    {
+      "text": "Invest in a Brighter Future",
+      "use_cases": ["recruitment", "goal-setting"],
+      "tags": ["recruitment", "future"]
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "meta": {
+    "source_repo": "https://github.com/Bond7010/tm-brand-kit-assets",
+    "raw_base": "https://raw.githubusercontent.com/Bond7010/tm-brand-kit-assets/main/",
+    "pages_base": "https://bond7010.github.io/tm-brand-kit-assets/",
+    "note": "Prefer raw_base URLs for programmatic use; pages_base for browser display"
+  },
+
+  "logos": {
+    "primary": [
+      {
+        "id": "logo_color_png",
+        "label": "Toastmasters Logo — Full Color",
+        "format": "PNG",
+        "url": "https://raw.githubusercontent.com/Bond7010/tm-brand-kit-assets/main/assets/logos/ToastmastersLogo/ToastmastersLogoColor.png",
+        "usage": "Default — use on white or light backgrounds",
+        "approved_backgrounds": ["white", "#FFFFFF", "#F5F5F5"]
+      },
+      {
+        "id": "logo_color_jpg",
+        "label": "Toastmasters Logo — Full Color (JPG)",
+        "format": "JPG",
+        "url": "https://raw.githubusercontent.com/Bond7010/tm-brand-kit-assets/main/assets/logos/ToastmastersLogo/ToastmastersLogoColor.jpg"
+      },
+      {
+        "id": "logo_3color_png",
+        "label": "Toastmasters Logo — 3-Color",
+        "format": "PNG",
+        "url": "https://raw.githubusercontent.com/Bond7010/tm-brand-kit-assets/main/assets/logos/ToastmastersLogo/ToastmastersLogo3Color.png"
+      },
+      {
+        "id": "logo_grayscale_png",
+        "label": "Toastmasters Logo — Grayscale",
+        "format": "PNG",
+        "url": "https://raw.githubusercontent.com/Bond7010/tm-brand-kit-assets/main/assets/logos/ToastmastersLogo/ToastmastersLogoGrayscale.png",
+        "usage": "Limited-color print applications"
+      },
+      {
+        "id": "logo_white_png",
+        "label": "Toastmasters Logo — White (Reversed)",
+        "format": "PNG",
+        "url": "https://raw.githubusercontent.com/Bond7010/tm-brand-kit-assets/main/assets/logos/ToastmastersLogo/ToastmastersLogoWhite.png",
+        "usage": "Use on Loyal Blue or True Maroon backgrounds only"
+      }
+    ],
+    "zips": [
+      {
+        "id": "logos_zip",
+        "label": "All Toastmasters Logos (ZIP)",
+        "url": "https://raw.githubusercontent.com/Bond7010/tm-brand-kit-assets/main/assets/ToastmastersLogo.zip"
+      },
+      {
+        "id": "lockups_zip",
+        "label": "Logo Lockups (ZIP)",
+        "url": "https://raw.githubusercontent.com/Bond7010/tm-brand-kit-assets/main/assets/LogoLockups.zip"
+      },
+      {
+        "id": "wordmark_zip",
+        "label": "Wordmark (ZIP)",
+        "url": "https://raw.githubusercontent.com/Bond7010/tm-brand-kit-assets/main/assets/ToastmastersWordmark.zip"
+      }
+    ]
+  },
+
+  "pathways": [
+    {
+      "id": "pathways_svg",
+      "label": "Pathways Type Treatment — SVG",
+      "format": "SVG",
+      "url": "https://raw.githubusercontent.com/Bond7010/tm-brand-kit-assets/main/assets/Pathways/PathwaysTypeTreatmentColor.svg"
+    },
+    {
+      "id": "pathways_color_png",
+      "label": "Pathways Type Treatment — Color PNG",
+      "format": "PNG",
+      "url": "https://raw.githubusercontent.com/Bond7010/tm-brand-kit-assets/main/assets/Pathways/PathwaysTypeTreatmentColor-RGB.png"
+    },
+    {
+      "id": "pathways_zip",
+      "label": "All Pathways Logos (ZIP)",
+      "url": "https://raw.githubusercontent.com/Bond7010/tm-brand-kit-assets/main/assets/PathwaysLogo.zip"
+    }
+  ],
+
+  "badges": [
+    {
+      "id": "badge_member",
+      "label": "Member Badge",
+      "url": "https://raw.githubusercontent.com/Bond7010/tm-brand-kit-assets/main/assets/ToastmasterBadge/member-badge.png"
+    },
+    {
+      "id": "badge_dtm",
+      "label": "Distinguished Toastmaster (DTM) Badge",
+      "url": "https://raw.githubusercontent.com/Bond7010/tm-brand-kit-assets/main/assets/ToastmasterBadge/dtm-badge.png"
+    },
+    {
+      "id": "badge_speaker_pin",
+      "label": "Qualified Speaker Pin",
+      "url": "https://raw.githubusercontent.com/Bond7010/tm-brand-kit-assets/main/assets/ToastmasterBadge/Qualified-Speaker-Pin.png"
+    },
+    {
+      "id": "badge_pathway_dynamic",
+      "label": "Pathways Badge — Dynamic Leadership",
+      "url": "https://raw.githubusercontent.com/Bond7010/tm-brand-kit-assets/main/assets/ToastmasterBadge/pathways-badge-dynamic-leadership.png"
+    },
+    {
+      "id": "badge_pathway_humor",
+      "label": "Pathways Badge — Engaging Humor",
+      "url": "https://raw.githubusercontent.com/Bond7010/tm-brand-kit-assets/main/assets/ToastmasterBadge/pathways-badge-engaging-humor.png"
+    },
+    {
+      "id": "badge_pathway_motivational",
+      "label": "Pathways Badge — Motivational Strategies",
+      "url": "https://raw.githubusercontent.com/Bond7010/tm-brand-kit-assets/main/assets/ToastmasterBadge/pathways-badge-motivational-strategies.png"
+    },
+    {
+      "id": "badge_pathway_persuasive",
+      "label": "Pathways Badge — Persuasive Influence",
+      "url": "https://raw.githubusercontent.com/Bond7010/tm-brand-kit-assets/main/assets/ToastmasterBadge/pathways-badge-persuasive-influence.png"
+    },
+    {
+      "id": "badge_pathway_presentation",
+      "label": "Pathways Badge — Presentation Mastery",
+      "url": "https://raw.githubusercontent.com/Bond7010/tm-brand-kit-assets/main/assets/ToastmasterBadge/pathways-badge-presentation-mastery.png"
+    },
+    {
+      "id": "badge_pathway_visionary",
+      "label": "Pathways Badge — Visionary Communication",
+      "url": "https://raw.githubusercontent.com/Bond7010/tm-brand-kit-assets/main/assets/ToastmasterBadge/pathways-badge-visionary-communication.png"
+    },
+    {
+      "id": "badges_zip",
+      "label": "All Badges (ZIP)",
+      "url": "https://raw.githubusercontent.com/Bond7010/tm-brand-kit-assets/main/assets/ToastmastersBadge.zip"
+    }
+  ],
+
+  "photography": [
+    {
+      "id": "photo_universal_header",
+      "label": "Universal Header Photo",
+      "format": "JPG",
+      "url": "https://raw.githubusercontent.com/Bond7010/tm-brand-kit-assets/main/assets/universal-header-photo.jpg",
+      "usage": "FTH homepage headers, banners"
+    },
+    {
+      "id": "photo_hq_meeting",
+      "label": "HQ Meeting Photo (High-res)",
+      "format": "JPG",
+      "url": "https://raw.githubusercontent.com/Bond7010/tm-brand-kit-assets/main/assets/GenericPictures/2018-S2-TIWHQ-4024.jpg",
+      "note": "23 MB — use thumbnail/resized version for web"
+    }
+  ],
+
+  "templates": {
+    "thumbnails": [
+      {
+        "id": "tmpl_meeting_fb",
+        "label": "Meeting Flyer — Facebook",
+        "url": "https://raw.githubusercontent.com/Bond7010/tm-brand-kit-assets/main/assets/TemplateThumbnails/Meeting_Flyer_FB.png"
+      },
+      {
+        "id": "tmpl_meeting_ig",
+        "label": "Meeting Flyer — Instagram",
+        "url": "https://raw.githubusercontent.com/Bond7010/tm-brand-kit-assets/main/assets/TemplateThumbnails/Meeting_Flyer_IG.png"
+      },
+      {
+        "id": "tmpl_club_flyer",
+        "label": "Club Flyer — Generic",
+        "url": "https://raw.githubusercontent.com/Bond7010/tm-brand-kit-assets/main/assets/TemplateThumbnails/Club_Flyer_Generic.png"
+      },
+      {
+        "id": "tmpl_open_house",
+        "label": "Open House / TLI / Contest Flyer",
+        "url": "https://raw.githubusercontent.com/Bond7010/tm-brand-kit-assets/main/assets/TemplateThumbnails/Open_House_TLI_Contest_Flyer.png"
+      },
+      {
+        "id": "tmpl_renewal",
+        "label": "Membership Renewal Flyer",
+        "url": "https://raw.githubusercontent.com/Bond7010/tm-brand-kit-assets/main/assets/TemplateThumbnails/Renewal.png"
+      },
+      {
+        "id": "tmpl_biz_card",
+        "label": "Business Card — Division Officers",
+        "url": "https://raw.githubusercontent.com/Bond7010/tm-brand-kit-assets/main/assets/TemplateThumbnails/Biz_Card_Division_Officers.png"
+      }
+    ]
+  },
+
+  "documents": [
+    {
+      "id": "brand_manual_pdf",
+      "label": "Official Toastmasters Brand Manual",
+      "format": "PDF",
+      "url": "https://raw.githubusercontent.com/Bond7010/tm-brand-kit-assets/main/assets/02330-001-0001-brand-manual.pdf",
+      "size_mb": 8.9
+    }
+  ],
+
+  "fonts_zips": [
+    {
+      "id": "font_corinthia",
+      "label": "Corinthia Font (ZIP) — Script / Special Events",
+      "url": "https://raw.githubusercontent.com/Bond7010/tm-brand-kit-assets/main/assets/Corinthia.zip"
+    },
+    {
+      "id": "font_luxurious_script",
+      "label": "Luxurious Script Font (ZIP)",
+      "url": "https://raw.githubusercontent.com/Bond7010/tm-brand-kit-assets/main/assets/Luxurious_Script.zip"
+    }
+  ]
+}
