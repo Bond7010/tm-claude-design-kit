@@ -4,6 +4,8 @@ Structured brand tokens, asset manifests, and design prompts for AI-assisted Toa
 
 ![Brand Kit Overview](assets/infographic.png)
 
+![Toastmasters Brand Guidelines](assets/brand-guideline.png)
+
 ---
 
 ## What's in this kit
